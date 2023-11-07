@@ -12,7 +12,7 @@ import { Sheet, SheetContent, SheetHeader, SheetTrigger } from "./sheet";
 
 const Header = () => {
   return (
-    <Card className="shadow-black bg-white-700 flex justify-between p-[1.875rem] items-center">
+    <Card className="shadow-black bg-black flex justify-between p-[1.875rem] items-center">
       <Sheet>
         <SheetTrigger asChild>
           <Button size="icon" variant="outline">
@@ -26,7 +26,7 @@ const Header = () => {
           </SheetHeader>
 
           <div className="mt-2 flex flex-col gap-2">
-            <Button className="w-full justify-start gap-3" variant="outline">
+            <Button className="w-full justify-start gap-2" variant="outline">
               <LogInIcon size={16} />
               Fazer Login
             </Button>
@@ -50,10 +50,10 @@ const Header = () => {
       </Sheet>
 
       <h1
-        className=" text-green-300 text-3xl font-extrabold
+        className=" text-white text-3xl font-extrabold
        "
       >
-        <span className="text-primary text-green-300">Game</span>Versus 
+        <span className="text-primary text-red-300 ">Game</span>Versus 
         
       </h1>
       <Button size="icon" variant="outline">
