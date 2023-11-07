@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "allowJs": true,
+      "checkJs": false,
+      "outDir": "./dist", // Add this line
+      
+    },
+    "include": ["**/*.js", "**/*.jsx"]
+  }
