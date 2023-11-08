@@ -53,7 +53,7 @@ const Header = () => {
         className=" text-white text-3xl font-extrabold
        "
       >
-        <span className="text-primary text-red-300 ">Game</span>Versus 
+        <span className="text-primary text-purple-500 ">Game</span>Versus 
         
       </h1>
       <Button size="icon" variant="outline">
